@@ -1,7 +1,7 @@
 <template>
   <header id="headerType" :class="['header_wrap', element]">
     <div class="header_inner nexon">
-      <div class="header_logo"><a href="/">{{ title }}</a></div>
+      <div class="header_logo"><a href="/">{{ title }} <em>site</em></a></div>
       <nav class="header_menu">
         <ul>
           <li><a href="/">헤더 영역</a></li>

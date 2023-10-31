@@ -12,7 +12,7 @@ import Footer from "@/components/Footer.vue"
 </script>
 
 <template>
-  <Header element="nexon" title="wolves <em>site</em>" />
+  <Header element="nexon" title="wolves" />
   <main>
     <Slider element="nexon" title="슬라이드 유형" />
     <Image element="nexon section" title="포트폴리오가 실력이다." />
