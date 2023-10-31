@@ -30,6 +30,10 @@
     </section>
 </template>
 <script>
+import Rectangle17 from "../assets/img/Rectangle17.jpg";
+import card01 from "../assets/img/card01.jpg";
+import card03 from "../assets/img/card03.jpg";
+
 export default {
     props: {
         element: String,
@@ -40,17 +44,17 @@ export default {
         return {
             cardInfo: [
                 {
-                    img: "/src/assets/img/Rectangle17.jpg",
+                    img: Rectangle17,
                     title: "웹표준 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이트.."
                 },
                 {
-                    img: "/src/assets/img/card01.jpg",
+                    img: card01,
                     title: "반응형 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이트.."
                 },
                 {
-                    img: "/src/assets/img/card03.jpg",
+                    img: card03,
                     title: "패럴랙스 사이트 만들기",
                     desc: "사이트를 만들기 위한 기초 강의입니다. 기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이트.."
                 }
