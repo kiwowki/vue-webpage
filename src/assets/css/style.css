@@ -368,7 +368,9 @@
 }
 
 .banner_inner {
-    background: url(../img/banner_bg01.jpg) no-repeat center center / cover;
+    background: url(../img/banner_bg01.jpg);
+    /* background: url(../assets/img/banner_bg01.jpg); */
+    /* no-repeat center center / cover; */
     height: 500px;
     text-align: center;
     color: #fff;
